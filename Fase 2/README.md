@@ -11,6 +11,8 @@ Corte de evidencia del código: 15/10/2026 · Documentos al 22/10/2026 (semana 1
 | `Ficha_Avance_03_HurryUp_v1.0_Marketplace_GRUPO06.docx` | Ficha 03 (Marketplace v1.0) |
 | `Ficha_Avance_04_HurryUp_v1.0_GRUPO06.docx` | Ficha 04: trazabilidad de las funcionalidades del Marketplace (60 %), con F07 a F09 agregadas fuera del cálculo |
 | `Ficha_Avance_05_Proyecto_Capstone_GRUPO06.docx` | Cruce con la ficha 04 (75 % actual), diagrama de actividades A01–A11 y caso de uso CU-01 |
+| `Ficha_Avance_06_Proyecto_Capstone_GRUPO06.docx` | Evaluación económica (costos, VAN y TIR a 3 años) y dos pruebas de calidad (postulación y acceso sin cobro) |
+| `Planilla_Ficha_06_Evaluacion_Economica_GRUPO06.xlsx` | Planilla con supuestos, costos, beneficios, flujo de caja, VAN/TIR y sensibilidad (fórmulas visibles) |
 | `2.3_APT122_FormativaAvanceFase2_GRUPO06.docx` | Pauta formativa del docente (sin cambios) |
 
 ## Evidencias Individuales
