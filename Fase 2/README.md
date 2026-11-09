@@ -1,31 +1,37 @@
 # Fase 2 · Desarrollo del Proyecto APT — HurryUp
 
-Grupo 006 · Vicente Bustos y Vicente Heredia · Docente guía: Reginaldo Salinas
-Corte de evidencia del código: 15/10/2026 · Documentos al 22/10/2026 (semana 12)
+Grupo 006 · Sección 002D · Vicente Bustos y Vicente Heredia · Docente guía: Reginaldo Salinas
+Corte de evidencia del código: 15/10/2026 · Documentos finales al 08/11/2026 (semana 14)
+
+La estructura sigue la «Indicación Final para GitHub» del docente.
+
+## Evidencias Individuales
+| Archivo | Contenido |
+|---|---|
+| `BUSTOS_VICENTE_2.1_APT122_DiarioReflexionFase2.docx` | Diario de reflexión de la Fase 2 |
+| `BUSTOS_VICENTE_2.2_APT122_AutoevaluacionAvanceFase2.docx` | Autoevaluación del avance de la Fase 2 |
 
 ## Evidencias Grupales
 | Archivo | Contenido |
 |---|---|
-| `2.4_GuiaEstudiante_Fase_2_DesarrolloProyecto_APT_GRUPO06.docx` | Informe de avance: resumen, plan de trabajo monitoreado, ajustes, abstract (ES/EN) y reflexión |
-| `Ficha_Avance_02_HurryUp_v1.0_Iteracion02_GRUPO06.docx` | Ficha 02 (Marketplace v1.0) |
-| `Ficha_Avance_03_HurryUp_v1.0_Marketplace_GRUPO06.docx` | Ficha 03 (Marketplace v1.0) |
-| `Ficha_Avance_04_HurryUp_v1.0_GRUPO06.docx` | Ficha 04: trazabilidad de las funcionalidades del Marketplace (60 %), con F07 a F09 agregadas fuera del cálculo |
-| `Ficha_Avance_05_Proyecto_Capstone_GRUPO06.docx` | Cruce con la ficha 04 (75 % actual), diagrama de actividades A01–A11 y caso de uso CU-01 |
-| `Ficha_Avance_06_Proyecto_Capstone_GRUPO06.docx` | Evaluación económica (costos de operación y VAN a 3 años, sin costear la mano de obra) y dos pruebas de calidad (postulación y acceso sin cobro) |
-| `Planilla_Ficha_06_Evaluacion_Economica_GRUPO06.xlsx` | Planilla con supuestos, costos, beneficios, flujo de caja, VAN/TIR y sensibilidad (fórmulas visibles) |
-| `Modelo_Evaluacion_Economica_HurryUp_GRUPO06.xlsx` | Modelo económico ordenado y explicado: resumen, supuestos, costos, beneficios, flujo de caja y sensibilidad |
 | `2.3_APT122_FormativaAvanceFase2_GRUPO06.docx` | Pauta formativa del docente (sin cambios) |
-
-## Evidencias Individuales
-- Vicente Bustos: `BUSTOS_VICENTE_2.1_APT122_DiarioReflexionFase2_VB.docx`, `BUSTOS_VICENTE_2.2_APT122_AutoevaluacionAvanceFase2_VB.docx`
+| `2.4_GuiaEstudiante_Fase 2_DesarrolloProyecto APT (Español).docx` | Informe de avance: resumen, plan de trabajo monitoreado, ajustes, abstract (ES/EN) y reflexión |
+| `2.6_GuiaEstudiante_Fase 2_Informe Final Proyecto APT (Español).docx` | Informe final del Proyecto APT: relevancia, objetivos, metodología, desarrollo, evidencias e intereses profesionales |
 
 ## Evidencias Proyecto
-- `Evidencias de documentacion/`: `Caso_de_Uso_CU01_Postular_y_Activar_Negocio_GRUPO06.docx`, `Diagrama_Actividades_CU01` (SVG editable y PNG) e `Integracion_WhatsApp_HurryUp_GRUPO06.docx`.
-- `Evidencias de sistema/`: pendiente (capturas del flujo y base de datos).
+| Carpeta o archivo | Contenido |
+|---|---|
+| `Presentación Proyecto.pptx` | Presentación final del proyecto (la misma de la Fase 3) |
+| `Fichas de Iteración/` | Las seis fichas: 01 (Sprint 1 del Marketplace), 02, 03, 04 (trazabilidad), 05 (diseño y caso de uso CU-01) y 06 (evaluación económica y pruebas), más la planilla y el modelo económico en Excel |
+| `Evidencias de documentación/` | Caso de uso CU-01 y su diagrama de actividades, integración con WhatsApp, formularios del Modelo 4+1 (vista lógica y vista de desarrollo), diagramas de arquitectura y de clases, cronograma y Gantt ágil |
+| `Evidencias de sistema/Aplicación/` | Código fuente (repositorios y commits), cómo ejecutarlo y capturas de la aplicación |
+| `Evidencias de sistema/Base de datos/` | Esquema de PostgreSQL (sin datos) y diagrama del modelo de datos |
 
-## Código fuente (rama `develop`, corte 15/10/2026)
+## Código fuente (rama `develop`)
 | Repositorio | Commit |
 |---|---|
-| github.com/CheVenom/HurryBack | `8ecbb27` |
-| github.com/CheVenom/HurryBilling | `7dff813` |
-| github.com/CheVenom/HurryFront | `59d23d2` |
+| github.com/CheVenom/HurryBack | `8ecbb27` (corte 15/10/2026) |
+| github.com/CheVenom/HurryBilling | `7dff813` (corte 15/10/2026) |
+| github.com/CheVenom/HurryFront | `59d23d2` (corte 15/10/2026) |
+| github.com/CheVenom/HurryUpDuocBack | `d25db9f` (acceso por postulación) |
+| github.com/CheVenom/HurryUpDuocFront | `e7853bd` (acceso por postulación) |
