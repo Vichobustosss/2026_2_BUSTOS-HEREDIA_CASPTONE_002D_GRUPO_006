@@ -1,16 +1,13 @@
 # Evidencias de sistema · Aplicación
 
-HurryUp es una aplicación web en tres partes: interfaz (HurryFront), API (HurryBack) y facturación (HurryBilling). El acceso por postulación sin cobro se implementó en las variantes HurryUpDuoc.
+HurryUp es una aplicación web en dos partes: la interfaz (front) y la API (back). El acceso por postulación sin cobro está implementado en estos dos proyectos.
 
 ## Código fuente
 
 | Proyecto | Repositorio | Commit (rama develop) |
 |---|---|---|
-| HurryBack (API) | github.com/CheVenom/HurryBack | 8ecbb27 |
-| HurryBilling (planes y pagos) | github.com/CheVenom/HurryBilling | 7dff813 |
-| HurryFront (interfaz) | github.com/CheVenom/HurryFront | 59d23d2 |
-| HurryUpDuocBack (acceso por postulación) | github.com/CheVenom/HurryUpDuocBack | d25db9f |
-| HurryUpDuocFront (acceso por postulación) | github.com/CheVenom/HurryUpDuocFront | e7853bd |
+| HurryUpDuocBack (API) | github.com/CheVenom/HurryUpDuocBack | d25db9f |
+| HurryUpDuocFront (interfaz) | github.com/CheVenom/HurryUpDuocFront | e7853bd |
 
 Los repositorios son privados.
 

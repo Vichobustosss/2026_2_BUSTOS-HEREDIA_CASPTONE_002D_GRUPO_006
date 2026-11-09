@@ -21,7 +21,7 @@ La estructura sigue la «Indicación Final para GitHub» del docente.
 ## Evidencias Proyecto
 | Carpeta o archivo | Contenido |
 |---|---|
-| `Presentación Proyecto.pptx` | Presentación final del proyecto (la misma de la Fase 3) |
+| `Presentación Proyecto.pptx` | Presentación del proyecto |
 | `Fichas de Iteración/` | Las seis fichas: 01 (Sprint 1 del Marketplace), 02, 03, 04 (trazabilidad), 05 (diseño y caso de uso CU-01) y 06 (evaluación económica y pruebas), más la planilla y el modelo económico en Excel |
 | `Evidencias de documentación/` | Caso de uso CU-01 y su diagrama de actividades, integración con WhatsApp, formularios del Modelo 4+1 (vista lógica y vista de desarrollo), diagramas de arquitectura y de clases, cronograma y Gantt ágil |
 | `Evidencias de sistema/Aplicación/` | Código fuente (repositorios y commits), cómo ejecutarlo y capturas de la aplicación |
@@ -31,7 +31,6 @@ La estructura sigue la «Indicación Final para GitHub» del docente.
 | Repositorio | Commit |
 |---|---|
 | github.com/CheVenom/HurryBack | `8ecbb27` (corte 15/10/2026) |
-| github.com/CheVenom/HurryBilling | `7dff813` (corte 15/10/2026) |
 | github.com/CheVenom/HurryFront | `59d23d2` (corte 15/10/2026) |
 | github.com/CheVenom/HurryUpDuocBack | `d25db9f` (acceso por postulación) |
 | github.com/CheVenom/HurryUpDuocFront | `e7853bd` (acceso por postulación) |
