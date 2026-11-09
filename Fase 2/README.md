@@ -13,6 +13,7 @@ Corte de evidencia del código: 15/10/2026 · Documentos al 22/10/2026 (semana 1
 | `Ficha_Avance_05_Proyecto_Capstone_GRUPO06.docx` | Cruce con la ficha 04 (75 % actual), diagrama de actividades A01–A11 y caso de uso CU-01 |
 | `Ficha_Avance_06_Proyecto_Capstone_GRUPO06.docx` | Evaluación económica (costos de operación y VAN a 3 años, sin costear la mano de obra) y dos pruebas de calidad (postulación y acceso sin cobro) |
 | `Planilla_Ficha_06_Evaluacion_Economica_GRUPO06.xlsx` | Planilla con supuestos, costos, beneficios, flujo de caja, VAN/TIR y sensibilidad (fórmulas visibles) |
+| `Modelo_Evaluacion_Economica_HurryUp_GRUPO06.xlsx` | Modelo económico ordenado y explicado: resumen, supuestos, costos, beneficios, flujo de caja y sensibilidad |
 | `2.3_APT122_FormativaAvanceFase2_GRUPO06.docx` | Pauta formativa del docente (sin cambios) |
 
 ## Evidencias Individuales
