@@ -19,6 +19,8 @@ Los repositorios son privados.
 | 02_Planes_acceso_por_postulacion.jpg | Planes Solitario y Duo con el acceso «Sin costo» y el botón «Postular con este plan». |
 | 03_Registro_previo_a_postular.jpg | Registro de la cuenta, paso previo a la postulación con plan y motivo. |
 | 04_Marketplace_listado_de_negocios.jpg | Listado público de negocios con rubro, ubicación, sucursales y valoración. |
+| 05_Acceso_por_URL_sin_sesion_redirige_a_login.jpg | Al abrir por su dirección /admin/applications sin sesión, el sistema redirige al inicio de sesión. |
+| Registro_pruebas_seguridad_y_control_de_interacciones.txt | Registro de las pruebas de seguridad de la URL, de datos maliciosos y de límite de intentos (Ficha 06, pruebas 3 y 4). |
 
 ## Cómo se ejecuta (variante con acceso por postulación)
 

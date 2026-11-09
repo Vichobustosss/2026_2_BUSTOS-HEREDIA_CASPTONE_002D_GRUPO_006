@@ -1,0 +1,25 @@
+REGISTRO DE PRUEBAS DE SEGURIDAD Y CONTROL DE INTERACCIONES · HurryUp (HurryUpDuoc)
+Fecha de ejecución: 08/11/2026 22:41  ·  Back: http://localhost:8280/api  ·  Front: http://localhost:3100
+
+== A. Seguridad de la URL y de los roles ==
+A1. Entrar a la API de administración sin iniciar sesión (GET /admin/applications): HTTP 401  [esperado 401]
+A2. Abrir en el navegador la página /admin/applications sin sesión: HTTP 200  (la página se abre y el front, al no encontrar sesión, redirige a /login; ver captura 05)
+A3. Inicio de sesión de un dueño de negocio (no es Super Admin): HTTP 200  [esperado 200]
+A4. Ese dueño intenta abrir la API de postulaciones del Super Admin (GET /admin/applications): HTTP 403  [esperado 403]
+A5. Ese dueño intenta activar un complemento ajeno (POST /admin/module-requests/1/grant): HTTP 403  [esperado 403]
+A6. Ese dueño (negocio 29) intenta ver las solicitudes de otro negocio por la URL (GET /commercial/businesses/1/module-requests): HTTP 403  [esperado 403]
+A7. El mismo dueño ve las de su propio negocio (GET /commercial/businesses/29/module-requests): HTTP 200  [esperado 200]
+A8. Uso de un token falso en la cookie (GET /commercial/context): HTTP 401  [esperado 401]
+
+== B. Datos de entrada maliciosos ==
+B1. Búsqueda pública con texto de inyección SQL (GET /public/businesses?search=' OR '1'='1'; DROP TABLE users; --): HTTP 200  [esperado: sin error 500 y sin ejecutar nada]
+B2. La tabla users sigue existiendo y tiene 26 filas (la instrucción DROP TABLE no se ejecutó).
+B3. Postulación con un motivo de 5 caracteres (POST /applications): HTTP 400  [esperado 400/409: la validación o el estado de la cuenta lo rechaza]
+
+== C. Control de interacciones (límite de intentos) ==
+C1. 8 intentos seguidos de inicio de sesión con una cuenta inexistente (límite configurado: 5 intentos cada 5 minutos):
+     códigos por intento: 400 400 400 400 429 429 429 429
+     (400 = credenciales rechazadas. El límite es de 5 intentos por ventana; el inicio de sesión A3 ya había usado uno, por eso el 5.º intento de esta serie recibe 429 y el sistema deja de procesar la cuenta.)
+C2. 5 registros seguidos con datos inválidos (límite configurado: 3 cada 10 minutos):
+     códigos por intento: 400 400 400 429 429   [esperado: 400 los primeros 3 y 429 desde el 4.º]
+C3. Después del bloqueo, una petición normal a otra ruta sigue funcionando (GET /public/businesses): HTTP 200  [esperado 200]

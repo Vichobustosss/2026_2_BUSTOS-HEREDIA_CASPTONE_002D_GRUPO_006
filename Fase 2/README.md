@@ -30,7 +30,5 @@ La estructura sigue la «Indicación Final para GitHub» del docente.
 ## Código fuente (rama `develop`)
 | Repositorio | Commit |
 |---|---|
-| github.com/CheVenom/HurryBack | `8ecbb27` (corte 15/10/2026) |
-| github.com/CheVenom/HurryFront | `59d23d2` (corte 15/10/2026) |
-| github.com/CheVenom/HurryUpDuocBack | `d25db9f` (acceso por postulación) |
-| github.com/CheVenom/HurryUpDuocFront | `e7853bd` (acceso por postulación) |
+| github.com/CheVenom/HurryUpDuocBack | `d25db9f` (rama develop) |
+| github.com/CheVenom/HurryUpDuocFront | `e7853bd` (rama develop) |
