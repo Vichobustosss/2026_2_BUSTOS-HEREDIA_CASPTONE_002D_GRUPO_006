@@ -20,6 +20,9 @@ Los repositorios son privados.
 | 03_Registro_previo_a_postular.jpg | Registro de la cuenta, paso previo a la postulación con plan y motivo. |
 | 04_Marketplace_listado_de_negocios.jpg | Listado público de negocios con rubro, ubicación, sucursales y valoración. |
 | 05_Acceso_por_URL_sin_sesion_redirige_a_login.jpg | Al abrir por su dirección /admin/applications sin sesión, el sistema redirige al inicio de sesión. |
+| 06_WhatsApp_asistente_menu_servicios_y_horas.png | Chat con el asistente de WhatsApp: menú del negocio, servicios con precio y horas libres (08/10/2026). |
+| 07_WhatsApp_asistente_datos_y_confirmacion.png | El asistente pide nombre, correo y fecha de nacimiento, y muestra el resumen de la reserva. |
+| 08_WhatsApp_asistente_reserva_agendada.png | Confirmación «¡Listo! Tu hora quedó agendada» (Ficha 06, prueba 5). |
 | Registro_pruebas_seguridad_y_control_de_interacciones.txt | Registro de las pruebas de seguridad de la URL, de datos maliciosos y de límite de intentos (Ficha 06, pruebas 3 y 4). |
 
 ## Cómo se ejecuta (variante con acceso por postulación)
