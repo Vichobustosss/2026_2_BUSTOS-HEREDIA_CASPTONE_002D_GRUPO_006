@@ -6,8 +6,8 @@ HurryUp es una aplicación web en dos partes: la interfaz (front) y la API (back
 
 | Proyecto | Repositorio | Commit (rama develop) |
 |---|---|---|
-| HurryUpDuocBack (API) | github.com/CheVenom/HurryUpDuocBack | d25db9f |
-| HurryUpDuocFront (interfaz) | github.com/CheVenom/HurryUpDuocFront | e7853bd |
+| Back (API) | github.com/CheVenom/HurryUpDuocBack | d25db9f |
+| Front (interfaz) | github.com/CheVenom/HurryUpDuocFront | e7853bd |
 
 Los repositorios son privados.
 
@@ -25,11 +25,11 @@ Los repositorios son privados.
 | 08_WhatsApp_asistente_reserva_agendada.png | Confirmación «¡Listo! Tu hora quedó agendada» (Ficha 06, prueba 5). |
 | Registro_pruebas_seguridad_y_control_de_interacciones.txt | Registro de las pruebas de seguridad de la URL, de datos maliciosos y de límite de intentos (Ficha 06, pruebas 3 y 4). |
 
-## Cómo se ejecuta (variante con acceso por postulación)
+## Cómo se ejecuta
 
 - Base de datos PostgreSQL local (esquema en la carpeta «Base de datos»).
-- Back: `./gradlew bootRun` en HurryUpDuocBack (puerto 8280, ruta base `/api`).
-- Front: `npx next dev -p 3100` en HurryUpDuocFront (http://localhost:3100).
+- Back: `./gradlew bootRun` en el back (puerto 8280, ruta base `/api`).
+- Front: `npx next dev -p 3100` en el front (http://localhost:3100).
 - Archivo `.env` compartido en la carpeta superior de los proyectos.
 
 ## Flujo comprobado de punta a punta (22/10/2026)
